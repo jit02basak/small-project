@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: helvetica, arial, sans-serif;
+}
+
+
+body {
+    background-color: #7578A9;
+    text-align: center; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+  
+}
+
+
+.container {
+    width: 40vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game {
+    height: 70vmin;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 0px 0px 0px 70px;
+}
+
+.BOX {
+    height: 23vmin;
+    width: 23vmin;
+    border-radius: 2rem;
+    border-style: none;
+    font-size: 4rem;
+    background-color: #DCCFEC;
+    color: #337171;
+}
+
+.reset-btn {
+    padding: 1rem;
+    border-radius: 1rem;
+    font-size: 1.2rem;
+    background-color: #77AF9C;
+    border: none;
+    font-weight: 600;
+}
+#new-btn{
+    padding: 1rem;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    background-color: #77AF9C;
+    font-weight: 600;
+    border: none;
+}
+#msg{
+    color: #EAD7EA;
+    font-size: 8vmin;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.msg-container{
+    height: 80vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 10rem;
+    gap: 2rem;
+}
+.hide{
+    display: none;
+}
